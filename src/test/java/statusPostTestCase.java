@@ -10,7 +10,7 @@ public void successfullUserLogin(Method method) throws InterruptedException{
 
 	
 	facebookStatusPage facebookStatusPageObj =  new facebookStatusPage(driver);
-	facebookStatusPageObj.login("Maheen.ali128@gmail.com", "Maheenali@1");
+	facebookStatusPageObj.login("your email here", "password here");
 	facebookStatusPageObj.postStatus("Hello World");
 	}
 }
